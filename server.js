@@ -29,7 +29,7 @@ app.use(express.static(path.resolve(__dirname, 'public')));
 
 const sessionOptions = session({
     secret :'nao aguento mais ()',
-    store: MongoStore.create({ mongoUrl: 'mongodb+srv://phlopes646:pPFV6mQ99oEauZBe@pedroww.hqslcwv.mongodb.net/?retryWrites=true&w=majority' }),
+    store: MongoStore.create({ mongoUrl: '' }),
     resave: false ,
     saveUninitialized: false,
     cooke : {
